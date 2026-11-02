@@ -1,0 +1,90 @@
+.nixde-panel {
+  background-color: #252a34;
+  color: #e7eaf0;
+  border-top: 1px solid #3a414e;
+}
+
+.nixde-panel-content {
+  min-height: 36px;
+}
+
+.nixde-panel button {
+  background-color: transparent;
+  background-image: none;
+  color: inherit;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 5px 9px;
+}
+
+.nixde-panel button:hover {
+  background-color: #383f4c;
+}
+
+.nixde-launcher-button {
+  background-color: #303846;
+  font-weight: bold;
+}
+
+.nixde-brand-name {
+  color: #90ff08;
+}
+
+.nixde-task-list {
+  min-height: 34px;
+}
+
+.nixde-task-button {
+  min-width: 90px;
+  border-bottom: 2px solid transparent;
+}
+
+.nixde-task-button-active {
+  background-color: #343d4b;
+  border-bottom-color: #90ff08;
+}
+
+.nixde-clock {
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.nixde-launcher,
+.nixde-system-menu {
+  background-color: #252a34;
+  color: #e7eaf0;
+}
+
+.nixde-launcher-search {
+  min-height: 34px;
+}
+
+.nixde-app-list {
+  background-color: transparent;
+  color: #e7eaf0;
+}
+
+.nixde-app-list row {
+  border-radius: 4px;
+}
+
+.nixde-app-list row:hover {
+  background-color: #383f4c;
+}
+
+.nixde-launcher-popover,
+.nixde-system-popover,
+.nixde-task-context-popover {
+  background-color: #252a34;
+  color: #e7eaf0;
+  border: 1px solid #3a414e;
+}
+
+.nixde-task-context-menu {
+  min-width: 150px;
+}
+
+.nixde-close-window-button {
+  text-align: left;
+}
