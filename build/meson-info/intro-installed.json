@@ -1,0 +1,7 @@
+{
+  "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde": "/usr/bin/nixde",
+  "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde-panel": "/usr/bin/nixde-panel",
+  "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde.desktop": "/usr/share/wayland-sessions/nixde.desktop",
+  "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde-panel.css": "/usr/share/nixde/panel.css",
+  "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde-logo.svg": "/usr/share/icons/hicolor/scalable/apps/nixde.svg"
+}

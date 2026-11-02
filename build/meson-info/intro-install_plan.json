@@ -1,0 +1,35 @@
+{
+  "targets": {
+    "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde": {
+      "destination": "{bindir}/nixde",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde-panel": {
+      "destination": "{bindir}/nixde-panel",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    }
+  },
+  "data": {
+    "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde.desktop": {
+      "destination": "{datadir}/wayland-sessions/nixde.desktop",
+      "tag": null,
+      "subproject": null
+    },
+    "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde-panel.css": {
+      "destination": "{datadir}/nixde/panel.css",
+      "tag": null,
+      "subproject": null
+    },
+    "/media/Xdisk/Tecnico/Proyectos/NixDE/data/nixde-logo.svg": {
+      "destination": "{datadir}/icons/hicolor/scalable/apps/nixde.svg",
+      "tag": null,
+      "subproject": null
+    }
+  }
+}

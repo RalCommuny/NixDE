@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=NixDE (Wayland)
+Comment=NixDE: entorno de escritorio Wayland propio
+Exec=nixde
+Type=Application
+DesktopNames=NixDE
+Icon=nixde

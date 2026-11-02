@@ -1,0 +1,9 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/bin/nixde
+/usr/bin/nixde-panel
+/usr/share/wayland-sessions/nixde.desktop
+/usr/share/nixde/panel.css
+/usr/share/nixde/nixde-logo.svg
+/usr/share/icons/hicolor/scalable/apps/nixde.svg
+/usr/share/nixde

@@ -1,0 +1,177 @@
+[
+  {
+    "name": "nixde",
+    "id": "nixde@exe",
+    "type": "executable",
+    "defined_in": "/media/Xdisk/Tecnico/Proyectos/NixDE/meson.build",
+    "filename": [
+      "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde.p",
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE/build",
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE",
+          "-I/usr/include/wlroots-0.20",
+          "-I/usr/include/pixman-1",
+          "-I/usr/include/libdrm",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c11",
+          "-O0",
+          "-g",
+          "-DWLR_USE_UNSTABLE",
+          "-DNIXDE_DATADIR=\"/usr/share/nixde\""
+        ],
+        "sources": [
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/nixde.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/usr/lib/libwlroots-0.20.so",
+          "/usr/lib/libwayland-server.so",
+          "-lm",
+          "/usr/lib/libxkbcommon.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "wlroots-0.20",
+      "wayland-server",
+      "xkbcommon"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/usr/bin/nixde"
+    ]
+  },
+  {
+    "name": "nixde-panel",
+    "id": "nixde-panel@exe",
+    "type": "executable",
+    "defined_in": "/media/Xdisk/Tecnico/Proyectos/NixDE/meson.build",
+    "filename": [
+      "/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde-panel"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE/build/nixde-panel.p",
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE/build",
+          "-I/media/Xdisk/Tecnico/Proyectos/NixDE",
+          "-I/usr/include/gtk-4.0",
+          "-I/usr/include/pango-1.0",
+          "-I/usr/include/fribidi",
+          "-I/usr/include/harfbuzz",
+          "-I/usr/include/gdk-pixbuf-2.0",
+          "-I/usr/include/glycin-2",
+          "-I/usr/include/cairo",
+          "-I/usr/include/freetype2",
+          "-I/usr/include/libpng16",
+          "-I/usr/include/pixman-1",
+          "-I/usr/include/graphene-1.0",
+          "-I/usr/lib/graphene-1.0/include",
+          "-I/usr/include/glib-2.0",
+          "-I/usr/lib/glib-2.0/include",
+          "-I/usr/include/libmount",
+          "-I/usr/include/blkid",
+          "-I/usr/include/sysprof-6",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c11",
+          "-O0",
+          "-g",
+          "-DWLR_USE_UNSTABLE",
+          "-DNIXDE_DATADIR=\"/usr/share/nixde\"",
+          "-mfpmath=sse",
+          "-msse",
+          "-msse2",
+          "-pthread"
+        ],
+        "sources": [
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel.c",
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel/control.c",
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel/launcher.c",
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel/tasks.c",
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel/system.c",
+          "/media/Xdisk/Tecnico/Proyectos/NixDE/src/panel/style.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/usr/lib/libgtk-4.so",
+          "/usr/lib/libpangocairo-1.0.so",
+          "/usr/lib/libpango-1.0.so",
+          "/usr/lib/libharfbuzz.so",
+          "/usr/lib/libgdk_pixbuf-2.0.so",
+          "/usr/lib/libcairo-gobject.so",
+          "/usr/lib/libcairo.so",
+          "/usr/lib/libvulkan.so",
+          "/usr/lib/libgraphene-1.0.so",
+          "/usr/lib/libgio-2.0.so",
+          "/usr/lib/libgobject-2.0.so",
+          "/usr/lib/libglib-2.0.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "gtk4"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/usr/bin/nixde-panel"
+    ]
+  }
+]
