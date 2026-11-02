@@ -62,8 +62,9 @@ se configure una clave GPG, se debe distribuir la clave pública y exigir la
 firma en esta sección.
 
 El workflow también se ejecuta al enviar una etiqueta `v*`. Para publicar
-cambios posteriores, actualiza `pkgver` y `pkgrel` en `PKGBUILD`, sube los
-cambios y ejecuta el workflow manualmente o envía una etiqueta de versión.
+cambios posteriores, sube primero el código a GitHub y actualiza `pkgver`,
+`pkgrel`, `_commit` y `sha256sums` en `PKGBUILD` para que apunten a esa versión.
+Después ejecuta el workflow manualmente o envía una etiqueta de versión.
 
 ## Dependencias
 
